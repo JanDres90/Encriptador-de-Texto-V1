@@ -1,0 +1,214 @@
+body{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #E5E5E5;
+    
+}
+
+.logos{
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 40px;
+    top: 50px;
+ }
+
+.logo oracle{
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 30px;
+    top: 40px;
+}
+
+.logo mas{
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: relative;
+    width: 120px;
+    height: 48px;
+    left: 110px;
+    top: 40px;
+}
+
+.logo alura{
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 160px;
+    top: 40px;  
+}
+
+main{
+    display:flex;
+}
+
+.mensajeDescifrado{
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+/* identical to box height, or 48px */
+/* Dark blue/dark-blue-300 */
+    color: #0A3871;
+}
+
+.botones{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 800px;
+}
+
+.btnEncriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+}
+
+.btnEncriptar p{
+    flex-grow: 0; 
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;  
+}
+
+.btnDesencriptar{
+    background-color: #D8DFE8;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.btnDesencriptar p{
+    width: 280px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.mensajeCifrado{
+    position: absolute;
+    width: 400px;
+    height: 850px;
+    left: 1000px;
+    top: 40px;
+    bottom: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border:0;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    text-align: center;
+    vertical-align: text-top;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    padding-top: 3px;
+}
+
+.btnCopiar{
+    box-sizing: border-box;
+    display: flex;
+    padding: 24px;
+    gap: 8px;
+    position: absolute; 
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 800px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.btnCopiar p{
+    width: 288px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
