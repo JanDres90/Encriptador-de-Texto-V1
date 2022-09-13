@@ -87,6 +87,26 @@ main{
     color: #0A3871;
 }
 
+.advertencia{
+    position:absolute;
+    width: 205px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    left: 264px;
+    top: 750px;
+    
+}
+
 .botones{
     display: flex;
     align-items: flex-start;
